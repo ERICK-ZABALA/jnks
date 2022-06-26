@@ -1,5 +1,5 @@
 
-![image](https://github.com/ERICK-ZABALA/Thousand-Eyes/blob/master/slackBot/RESULT_JK)
+![image](https://github.com/ERICK-ZABALA/jnks/blob/main/JK.png?raw=true)
 
 # JENKINS ON CLOUD HEROKU
 
@@ -12,7 +12,7 @@ Then you need to create an account in Heroku.
 From you Visual Studio apply this commands to upload your Jenkins on the cloud.
 
 
-![image](https://github.com/ERICK-ZABALA/Thousand-Eyes/blob/master/slackBot/flowAlert.png?raw=true)
+![image](https://github.com/ERICK-ZABALA/jnks/blob/main/RESULT_JK.png?raw=true)
 
 
 ## PREREQUISITES
@@ -81,7 +81,12 @@ remote: To upgrade to Heroku-22, see:
 remote: https://devcenter.heroku.com/articles/upgrading-to-the-latest-stack
 remote:
 -----> Done
+
+## RESULT 
+
 ENJOYING !!! 
+
+![image](https://github.com/ERICK-ZABALA/jnks/blob/main/RESULT_JK.png?raw=true)
 
 
 
