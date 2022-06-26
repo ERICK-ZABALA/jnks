@@ -68,7 +68,9 @@ Uploading jenkins.war
        - size: 107MB
 -----> Uploading build...
        - success   
+
 -----> Deploying...
+
 remote: 
 remote: -----> Building on the Heroku-20 stack
 remote: -----> Using buildpack: heroku/jvm
@@ -81,13 +83,13 @@ remote: -----> Compressing...
 remote:        Done: 159.3M
 remote: -----> Launching...
 remote:        Released v3
-remote:        https://java-jenkins.herokuapp.com/ deployed to Heroku
+remote:        https://xxxxx.herokuapp.com/ deployed to Heroku
 remote: 
 remote: This app is using the Heroku-20 stack, however a newer stack is available.
 remote: To upgrade to Heroku-22, see:
 remote: https://devcenter.heroku.com/articles/upgrading-to-the-latest-stack
-remote:
------> Done
+
+remote:-----> Done
 
 ## RESULT 
 
