@@ -1,1 +1,2 @@
-web: java -jar target/jenkins.war
+buildpacks:clear
+war:deploy target/jenkins.war
