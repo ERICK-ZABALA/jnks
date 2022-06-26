@@ -51,7 +51,7 @@ Installing plugin java... installed v3.1.1
 
 Creating ⬢ java-jenkins... done
 
-* https://java-jenkins.herokuapp.com/ | https://git.heroku.com/java-jenkins.git
+* https://xxxxxx.herokuapp.com/ | https://git.heroku.com/xxxxxkins.git
 
 
 * cisco@PC1 MINGW64 /d/CODEX/jnks (main)$ heroku deploy:war jenkins.war -a java-jenkins
