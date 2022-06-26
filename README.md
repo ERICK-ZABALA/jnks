@@ -22,33 +22,33 @@ From you Visual Studio apply this commands to upload your Jenkins on the cloud.
 
 ## CONFIGURATION
 
-cisco@PC1 MINGW64 /d/CODEX/jnks (main)
-$ heroku login
- »   Warning: heroku update available from 7.53.0 to 7.60.2.
+* cisco@PC1 MINGW64 /d/CODEX/jnks (main)$ heroku login
+
+Warning: heroku update available from 7.53.0 to 7.60.2.
 heroku: Press any key to open up the browser to login or q to exit: 
 Opening browser to https://cli-auth.heroku.com/auth/cli/browser/8c7ce-4320-9280-963?requestor=SFMyNTY.g2gDbQAAAA4xOTIuMjI2LjEzNC42N24GAMCftZ6BAWIAAVGA.vr43S0if-roN5yB1_SIDU
 Logging in... done
 Logged in as
-cisco@PC1 MINGW64 /d/CODEX/jnks (main)
-$ ls
+
+* cisco@PC1 MINGW64 /d/CODEX/jnks (main)$ ls
 jenkins.war  
 
-cisco@PC1 MINGW64 /d/CODEX/jnks (main)
-$ heroku plugin:install java
+* cisco@PC1 MINGW64 /d/CODEX/jnks (main)$ heroku plugin:install java
+
  »   Warning: heroku update available from 7.53.0 to 7.60.2.
  »   Warning: plugin:install is not a heroku command.
 Did you mean plugins:install? [y/n]: y
 warning @heroku-cli/plugin-java > heroku-exec-util > uuid@3.2.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
 Installing plugin java... installed v3.1.1
 
-cisco@PC1 MINGW64 /d/CODEX/jnks (main)
-$ heroku create java-jenkins
+* cisco@PC1 MINGW64 /d/CODEX/jnks (main)$ heroku create java-jenkins
+
  »   Warning: heroku update available from 7.53.0 to 7.60.2.
 Creating ⬢ java-jenkins... done
 https://java-jenkins.herokuapp.com/ | https://git.heroku.com/java-jenkins.git
-cisco@PC1 MINGW64 /d/CODEX/jnks (main)
 
-$ heroku deploy:war jenkins.war -a java-jenkins
+
+* cisco@PC1 MINGW64 /d/CODEX/jnks (main)$ heroku deploy:war jenkins.war -a java-jenkins
  
 »   Warning: heroku update available from 7.53.0 to 7.60.2.
 Uploading jenkins.war
