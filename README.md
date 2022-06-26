@@ -1,16 +1,17 @@
 
 ![image](https://github.com/ERICK-ZABALA/jnks/blob/main/JK.png?raw=true)
 
-# JENKINS ON CLOUD HEROKU
+# JENKINS ON THE HEROKU CLOUD
 
 ## OVERVIEW
 
-This example demostrate as load jenkins on cloud heroku using java. You need to download Jenkins for java
+This example looking for how load jenkins on the heroku cloud using file java type war. You need to download Jenkins for java as first step...
+
 https://www.jenkins.io/download/
 
 Then you need to create an account in Heroku.
-From you Visual Studio apply this commands to upload your Jenkins on the cloud.
 
+From you Visual Studio apply this commands to upload your Jenkins on the cloud.
 
 ![image](https://github.com/ERICK-ZABALA/jnks/blob/main/RESULT_JK.png?raw=true)
 
